@@ -1,0 +1,15 @@
+.wrapper {
+  max-width: 800px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
